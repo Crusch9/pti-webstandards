@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reiki Terapia Holística</title>
+<style>
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para as seções */
+section {
+    margin-bottom: 30px;
+}
+
+/* Estilos para os formulários */
+form {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Reiki Terapia Holística</h1>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Sobre Nós</h2>
+        <p>Somos uma empresa dedicada a fornecer serviços de Reiki Terapia Holística para o seu bem-estar físico, emocional e espiritual.</p>
+    </section>
+
+    <section>
+        <h2>Produtos/Serviços Oferecidos</h2>
+        <p>Oferecemos sessões individuais de Reiki, cursos de formação em Reiki, meditações guiadas e workshops relacionados ao bem-estar.</p>
+    </section>
+
+    <section>
+        <h2>Vantagens e Benefícios</h2>
+        <ul>
+            <li>Redução do estresse e ansiedade</li>
+            <li>Promove a cura física e emocional</li>
+            <li>Equilibra os centros de energia do corpo</li>
+            <li>Melhora a qualidade do sono</li>
+            <li>Aumenta a vitalidade e a energia</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Entre em Contato</h2>
+        <form action="#" method="post">
+            <input type="text" name="nome" placeholder="Seu Nome" required>
+            <input type="text" name="email" placeholder="Seu E-mail" required>
+            <textarea name="mensagem" placeholder="Sua Mensagem" rows="4" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <section>
+        <h2>Outras Informações</h2>
+        <p>Estamos localizados na Rua Principal, nº 123 - Centro, Cidade, Estado.</p>
+        <p>Horário de funcionamento: Segunda a Sexta, das 9h às 18h.</p>
+        <p>Telefone: (XX) XXXX-XXXX</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; <?php echo date("Y"); ?> Reiki Terapia Holística. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
